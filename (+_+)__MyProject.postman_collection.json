@@ -1,0 +1,2036 @@
+{
+	"id": "b792d7d4-cd5f-f553-5927-057c487eace5",
+	"name": "(+_+)__MyProject",
+	"description": "",
+	"order": [
+		"9e1a09f6-25ea-170f-d23a-83b43e3479fe",
+		"2fa1fd8d-dd45-1e63-54ec-88623d626b0b",
+		"9aafa9a3-9f3c-6606-f984-a3b2f3e3246c",
+		"536db7fb-2026-2626-1f87-3f4ff40ca04d"
+	],
+	"folders": [
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2755397310,
+			"folder": null,
+			"id": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"name": "1.Signup",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"5827c292-5ea7-d6ef-9606-56fa400afb88",
+				"e2d0f627-78a6-0611-1080-b2df1317c119",
+				"1545cdd8-203a-55db-6fa7-d6c6e76deecb",
+				"c658042a-dbe8-08b1-2e76-70233d9fe160",
+				"dbcb356a-c618-6743-8c50-f23805842825",
+				"4af68894-ff48-1f2f-8e8e-2ea98c2c150e",
+				"2a782887-6dcb-0f8e-46a2-42d024393e13",
+				"0464c04c-2d84-1c68-6044-aa96a4a74aa0",
+				"290a9faa-d4e0-caa9-a529-c342871fbd6c",
+				"084bcc0b-54c7-094e-f805-299a0f4d5fb2",
+				"4caf8f9c-8329-6199-8e20-c008af68ae92"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2755395394,
+			"folder": null,
+			"id": "e1eb069b-861f-186d-724c-ab5fa7b833fc",
+			"name": "2.Login",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"6e2a135c-86f7-622f-6396-317f88117b3e",
+				"f5ac0c2c-f84c-199e-c51e-4ac2e091d06a"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2386641958,
+			"folder": null,
+			"id": "dc978dea-1415-a696-d86c-daf1e9503aa0",
+			"name": "Change_mobile",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"6a5272d3-5a30-453e-c03f-5b226ecb2059",
+				"a6be828e-f719-5b79-37f6-c1d7593c552a"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2479758816,
+			"folder": null,
+			"id": "49b83189-0776-1786-117e-4245134707c4",
+			"name": "Display_CO_&MT",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"d027db48-9464-aeb2-6711-585baef4b50d",
+				"b7f1ccca-5fd2-7465-99e6-3cf006832c52"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2394425635,
+			"folder": null,
+			"id": "d66dd314-a31b-edd3-fe78-b1f94e67e1dc",
+			"name": "GET APIS",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"7c3c80f6-3f50-b21a-765e-34c17e5b22f6",
+				"d64c68bc-4000-452e-95c3-d1635b9b73dd",
+				"5d6aa367-344d-7bc2-16c6-5e66e3e0a559"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2386628574,
+			"folder": null,
+			"id": "ad143797-3b6b-3ae8-c0c8-3c29ce6d910b",
+			"name": "Ping",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"7741a10b-b668-8726-a842-cad912336f6f"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2386626899,
+			"folder": null,
+			"id": "3853aaec-3b4d-4e46-adde-24744696c8ad",
+			"name": "Profile",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"cba7f495-2ab6-9990-3830-cba5e4fb7210"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2629596283,
+			"folder": null,
+			"id": "345beb19-9c54-8721-9cbc-247c87d4795b",
+			"name": "Profilepic",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"d85e2429-5ac9-5942-92c6-75817d14c3d0"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2442110551,
+			"folder": null,
+			"id": "314a0965-d81a-9973-6eab-10de48d93e1d",
+			"name": "Report",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"91cb1a69-ce98-0792-8b5d-193b348e66f4",
+				"ba1a1c76-e14f-a762-4219-1bc4c8dc5cd7",
+				"4a94bc74-a60b-da4d-156c-ffeae567127f",
+				"3290bf50-8d47-5722-b08f-f4b5c63fbdb5",
+				"657174e7-cf2d-b5f7-1b1e-b0e025aecfad"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2386624813,
+			"folder": null,
+			"id": "55237ebe-87fd-c30f-f3f7-313cdfba351c",
+			"name": "Update Profile",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"0df0e858-f418-0a41-84ff-0593dbdfd3de",
+				"c9529254-0d42-80c5-dd6d-b372e661fcec",
+				"bef4c593-1996-131e-137b-3e17102a83c6",
+				"ac12798b-c642-5fa3-c746-1bf857b51358"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2386471535,
+			"folder": null,
+			"id": "0e01da63-c4fa-e017-a43e-a40cc9d7b937",
+			"name": "forum",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"2a1baedf-579c-6b86-af22-e014ff2a2c61",
+				"d8a3ae60-f897-ccbe-7fe6-099e841107eb",
+				"2ac47b34-b9a3-02a9-9019-a7ad4e02b7a9",
+				"8cb58e5a-ec18-d68e-d372-ea7890025865"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2695097227,
+			"folder": null,
+			"id": "37700e3e-ea86-eb18-caf1-e1e4f8d6961d",
+			"name": "jobvsrole",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"0344f783-f7ad-caf0-aed8-6ddb9ba040b2",
+				"334093de-04ce-f3d1-75eb-fe56e91cd646",
+				"813db7c8-f1b3-0944-a512-dd1398cf773e",
+				"d5505932-5c8c-c401-4f29-e8bbbe915575",
+				"71f74924-7de2-5610-62b4-c29409cbc4a5",
+				"be418692-8eb9-705b-988b-977d6ae82e10"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2386624287,
+			"folder": null,
+			"id": "e513c1a1-3afa-fe2f-dea0-eebef81b0e9c",
+			"name": "stepper",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"578f4a79-710b-684f-6a42-46f1dca88182",
+				"ebfca2eb-90fe-3fc5-9241-4b755bb35510",
+				"0e0e153f-9fe7-32b4-8f02-1df5b6bc5e83",
+				"e9457f07-b95c-8653-0519-d1407a2fe80c"
+			],
+			"folders_order": []
+		}
+	],
+	"folders_order": [
+		"4a7b03d8-9309-7d33-1316-a89b15b97882",
+		"e513c1a1-3afa-fe2f-dea0-eebef81b0e9c",
+		"55237ebe-87fd-c30f-f3f7-313cdfba351c",
+		"0e01da63-c4fa-e017-a43e-a40cc9d7b937",
+		"3853aaec-3b4d-4e46-adde-24744696c8ad",
+		"ad143797-3b6b-3ae8-c0c8-3c29ce6d910b",
+		"dc978dea-1415-a696-d86c-daf1e9503aa0",
+		"d66dd314-a31b-edd3-fe78-b1f94e67e1dc",
+		"314a0965-d81a-9973-6eab-10de48d93e1d",
+		"49b83189-0776-1786-117e-4245134707c4",
+		"37700e3e-ea86-eb18-caf1-e1e4f8d6961d",
+		"345beb19-9c54-8721-9cbc-247c87d4795b",
+		"e1eb069b-861f-186d-724c-ab5fa7b833fc"
+	],
+	"timestamp": 0,
+	"owner": "2819447",
+	"public": false,
+	"requests": [
+		{
+			"folder": "37700e3e-ea86-eb18-caf1-e1e4f8d6961d",
+			"id": "0344f783-f7ad-caf0-aed8-6ddb9ba040b2",
+			"name": "jobvsrole_repost",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"post\": \"This is post by Avinash.......\",\n      \"submoduleid\":\"19ef88e204dd445bab1f4f016ec39427\",\n    \"repost\":true\n\n    }  \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/jobvsrole/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"id": "0464c04c-2d84-1c68-6044-aa96a4a74aa0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}//api/setpassword/",
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534937074750,
+			"name": "Setpassword_Mobile",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n  \"body\": {\n    \"mobile\":\"8275455844\",\n    \"password\":\"Password123\",\n    \"confirmpassword\":\"Password123\",\n    \"uuid\":\"38132BF05BC84B7E9AB6AB64B0AFDADD\"\n    }\n}"
+		},
+		{
+			"id": "084bcc0b-54c7-094e-f805-299a0f4d5fb2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/forgetpassword/",
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532087967614,
+			"name": "Forgetpassword_Email",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"email\":\"avinashthorat68@gmail.com\"\n    }\n}"
+		},
+		{
+			"id": "0df0e858-f418-0a41-84ff-0593dbdfd3de",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/userprofile1/",
+			"folder": "55237ebe-87fd-c30f-f3f7-313cdfba351c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531742760321,
+			"name": "http://{{ip}}/api/userprofile1/",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"district\": \"2725\",\n    \"taluka\" : \"2505\",\n    \"schoolname\" : \"yashwant vidhyalaya latur\",\n    \"schoolindex\": \"27250508891\",\n    \"event\":\"updateprofile\",\n     \"position\":\"headmaster\"\n\n     \n     }   \n}"
+		},
+		{
+			"folder": "e513c1a1-3afa-fe2f-dea0-eebef81b0e9c",
+			"id": "0e0e153f-9fe7-32b4-8f02-1df5b6bc5e83",
+			"name": "http://{{ip}}/api/userprofile3/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n      \"subject\":\"subject1\",\n      \"grade\":\"9,10\",\n      \"dateofjoining\":\"2014\",\n      \"event\":\"stepper\" \n     \n     }   \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/userprofile3/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"id": "1545cdd8-203a-55db-6fa7-d6c6e76deecb",
+			"name": "Resendotp_Mobile",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"mobile\":\"{{mobile}}\"\n  }\n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/resendotp/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"id": "290a9faa-d4e0-caa9-a529-c342871fbd6c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}//api/setpassword/",
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531824997340,
+			"name": "Setpassword_Email",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n  \"body\": {\n    \"email\":\"{{email}}\",\n    \"password\":\"{{password}}\",\n    \"confirmpassword\":\"{{$confirmpass}}\",\n    \"uuid\":\"sdasasdasdasdasdasdasdasd\"\n\n    }\n}"
+		},
+		{
+			"folder": "0e01da63-c4fa-e017-a43e-a40cc9d7b937",
+			"id": "2a1baedf-579c-6b86-af22-e014ff2a2c61",
+			"name": "http://{{ip}}/api/post/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"post\": \"This is Post from Awesome\"\n    }\n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/post/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"id": "2a782887-6dcb-0f8e-46a2-42d024393e13",
+			"name": "Email_Verify",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \n    \"email\": \"{{email}}\",\n        \"emailotp\":\"731174\"\n    \n  }\n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/emailverify/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "0e01da63-c4fa-e017-a43e-a40cc9d7b937",
+			"id": "2ac47b34-b9a3-02a9-9019-a7ad4e02b7a9",
+			"name": "http://{{ip}}/api/viewcomment/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"postId\": \"2\",\n    \"refCommentId\": \"\",\n    \"comment\": \"vdfvdfv\"\n\n    \n    }  \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/viewcomment/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"id": "2fa1fd8d-dd45-1e63-54ec-88623d626b0b",
+			"headers": "Authorization: {{token}}\nSource: WEB\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/districtwisetaluka/2725",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1528455594232,
+			"name": "District_wise_Taluka",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": []
+		},
+		{
+			"folder": "314a0965-d81a-9973-6eab-10de48d93e1d",
+			"id": "3290bf50-8d47-5722-b08f-f4b5c63fbdb5",
+			"name": "District_W_Taluka_Count",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Authorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/districwisetalukacount/2726",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "37700e3e-ea86-eb18-caf1-e1e4f8d6961d",
+			"id": "334093de-04ce-f3d1-75eb-fe56e91cd646",
+			"name": "jvr_comment",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"postId\": \"4\",\n    \"refCommentId\": \"\",\n    \"comment\": \"yes yes i agreee\"\n\n    \n    }  \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: 29be0aa0551bf0bc4c105a6ae6f2b52f3cddc5b1\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/jvrcomment/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "29be0aa0551bf0bc4c105a6ae6f2b52f3cddc5b1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "314a0965-d81a-9973-6eab-10de48d93e1d",
+			"id": "4a94bc74-a60b-da4d-156c-ffeae567127f",
+			"name": "Self_District_W_Taluka_Count",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Authorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/districwisetalukacount/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"id": "4af68894-ff48-1f2f-8e8e-2ea98c2c150e",
+			"name": "Resendotp_Email",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"email\": \"{{email}}\"\n    }\n}  ",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/resendotp/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"id": "4caf8f9c-8329-6199-8e20-c008af68ae92",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}//api/forgetpassword/",
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1518430315208,
+			"name": "Forgetpassword_Mobile",
+			"description": "with Mobile",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n\"body\":\n    {\n    \"mobileno\":\"9657145627\"\n    }\n}"
+		},
+		{
+			"id": "536db7fb-2026-2626-1f87-3f4ff40ca04d",
+			"headers": "Content-Type: application/json\nSource: WEB\nAuthorization: {{Admin_token}}\n//Authorization: {{token}}\n//Authorization: {{Master_token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "{{Master_token}}",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://{{ip}}/api/esearch/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533208287773,
+			"name": "http://{{ip}}/api/esearch/",
+			"description": null,
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"query\":\"9421267530\"\n\t\t}\n}  "
+		},
+		{
+			"folder": "e513c1a1-3afa-fe2f-dea0-eebef81b0e9c",
+			"id": "578f4a79-710b-684f-6a42-46f1dca88182",
+			"name": "http://{{ip}}/api/userprofile1/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"position\":\"headmaster\",\n    \"district\": \"2725\",\n    \"taluka\" : \"2505\",\n    \"schoolname\" : \"yashwant vidhyalaya latur\",\n    \"schoolindex\": \"27250508891\",\n    \"event\":\"stpper\" \n     \n     }   \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/userprofile1/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"id": "5827c292-5ea7-d6ef-9606-56fa400afb88",
+			"name": "Signup/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n    \"user\": {\n        \"mobile\": \"{{mobile}}\",\n        \"full_name\": \"{{fullname}}\",\n        \"user_type\":\"trainee\"\n    }\n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "//Authorization: ff1b8b9f78b867f661feaac30f4a8ab482adf5d1\nContent-Type: application/json\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/signup/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "ff1b8b9f78b867f661feaac30f4a8ab482adf5d1",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "d66dd314-a31b-edd3-fe78-b1f94e67e1dc",
+			"id": "5d6aa367-344d-7bc2-16c6-5e66e3e0a559",
+			"name": "Display_PPT",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/displayppt/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"id": "657174e7-cf2d-b5f7-1b1e-b0e025aecfad",
+			"headers": "Authorization: {{Admin_token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/districtwisecount/",
+			"folder": "314a0965-d81a-9973-6eab-10de48d93e1d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530001923621,
+			"name": "District_W_Count",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": []
+		},
+		{
+			"id": "6a5272d3-5a30-453e-c03f-5b226ecb2059",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/mobileupdate/",
+			"folder": "dc978dea-1415-a696-d86c-daf1e9503aa0",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532087095049,
+			"name": "Mobile_Update",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"mobileno\": \"9657145627\",\n        \"password\":\"Admin@123\",\n        \"username\":\"8275455844\",\n        \"oldmobile\":\"8275455844\"\n  }\n}"
+		},
+		{
+			"id": "6e2a135c-86f7-622f-6396-317f88117b3e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/login/",
+			"folder": "e1eb069b-861f-186d-724c-ab5fa7b833fc",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534937381352,
+			"name": "Login_with_Mobile",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"username\": \"8805570124\",\n    \"password\":\"Admin@123\"\n    }\n}"
+		},
+		{
+			"folder": "37700e3e-ea86-eb18-caf1-e1e4f8d6961d",
+			"id": "71f74924-7de2-5610-62b4-c29409cbc4a5",
+			"name": "comment_count",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"postId\": \"2\",\n    \"refCommentId\": \"\",\n    \"comment\": \"yes yes i agreee\"\n\n    \n    }  \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/commentcount/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"id": "7741a10b-b668-8726-a842-cad912336f6f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/ping/",
+			"folder": "ad143797-3b6b-3ae8-c0c8-3c29ce6d910b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1523254112121,
+			"name": "ping",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n  \"user\":{\n    \"mobile\": \"9657145627\",\n    \"full_name\":\"Ashwini Deshmukh\",\n    \"user_type\":\"trainee\",\n    \"event\":\"changemobile\",\n    \"userid\":\"640\",\n    \"oldmobile\":\"9096280351\"}\n}"
+		},
+		{
+			"folder": "d66dd314-a31b-edd3-fe78-b1f94e67e1dc",
+			"id": "7c3c80f6-3f50-b21a-765e-34c17e5b22f6",
+			"name": "Totaltrainee",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/totaltrainee/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "37700e3e-ea86-eb18-caf1-e1e4f8d6961d",
+			"id": "813db7c8-f1b3-0944-a512-dd1398cf773e",
+			"name": "display_comment",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"postId\": \"2\",\n    \"refCommentId\": \"\",\n    \"comment\": \"yes yes i agreee\"\n\n    \n    }  \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/displayjvrcomment/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "0e01da63-c4fa-e017-a43e-a40cc9d7b937",
+			"id": "8cb58e5a-ec18-d68e-d372-ea7890025865",
+			"name": "http://{{ip}}/api/viewpost/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"postId\": \"2\",\n    \"refCommentId\": \"\",\n    \"comment\": \"vdfvdfv\"\n\n    \n    }  \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/viewpost/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "314a0965-d81a-9973-6eab-10de48d93e1d",
+			"id": "91cb1a69-ce98-0792-8b5d-193b348e66f4",
+			"name": "Self_Taluka_W_Registered_Users",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Authorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/talukawiseregisteredusers/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": null,
+			"id": "9aafa9a3-9f3c-6606-f984-a3b2f3e3246c",
+			"name": "Get_Profileimage",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "",
+			"variables": null,
+			"headers": "Authorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/getprofileimage/734",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"id": "9e1a09f6-25ea-170f-d23a-83b43e3479fe",
+			"headers": "Authorization: {{token}}\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/alldistrict/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1528455585250,
+			"name": "Alldistrict",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": []
+		},
+		{
+			"id": "a6be828e-f719-5b79-37f6-c1d7593c552a",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/updatedmobileverify/",
+			"folder": "dc978dea-1415-a696-d86c-daf1e9503aa0",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532324855271,
+			"name": "Update_Mobile_Verify",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"mobileno\": \"9657145627\",\n        \"mobileotp\":\"906074\"\n        }\n}"
+		},
+		{
+			"id": "ac12798b-c642-5fa3-c746-1bf857b51358",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/userprofile4/",
+			"folder": "55237ebe-87fd-c30f-f3f7-313cdfba351c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532089666310,
+			"name": "http://{{ip}}/api/userprofile4/",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"undergraduation\":\"BCA\",\n    \"ugspecial\" : \"CS\",\n    \"postgraduation\" : \"MCA\",\n    \"pgspecial\" : \"CS\",\n    \"professional\" : \"MEd\",\n    \"professionalspecil\":\"CS\",\n    \"other\" : \"MBA\",\n    \"event\":\"updateprofile\" \n     \n     }   \n}"
+		},
+		{
+			"folder": "49b83189-0776-1786-117e-4245134707c4",
+			"id": "b7f1ccca-5fd2-7465-99e6-3cf006832c52",
+			"name": "http://{{ip}}/api/districtcoordinator/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"postId\": \"2\",\n    \"refCommentId\": \"\",\n    \"comment\": \"vdfvdfv\"\n\n    \n    }  \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/districtcoordinatormob/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "314a0965-d81a-9973-6eab-10de48d93e1d",
+			"id": "ba1a1c76-e14f-a762-4219-1bc4c8dc5cd7",
+			"name": "Taluka_W_Registered_Users",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Authorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/talukawiseregisteredusers/2602",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "37700e3e-ea86-eb18-caf1-e1e4f8d6961d",
+			"id": "be418692-8eb9-705b-988b-977d6ae82e10",
+			"name": "http://{{ip}}/api/selfpost/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n      \"submoduleid\":\"19ef88e204dd445bab1f4f016ec39427\"\n\n    }  \n}",
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/selfpost/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"id": "bef4c593-1996-131e-137b-3e17102a83c6",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/userprofile3/",
+			"folder": "55237ebe-87fd-c30f-f3f7-313cdfba351c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532087315877,
+			"name": "http://{{ip}}/api/userprofile3/",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n      \"subject\":\"subject1w2\",\n      \"grade\":\"9,10\",\n      \"dateofjoining\":\"2014\",\n      \"event\":\"updateprofile\" \n     }   \n}"
+		},
+		{
+			"id": "c658042a-dbe8-08b1-2e76-70233d9fe160",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/mobileverify/",
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534937070420,
+			"name": "Mobile_Verify",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n    \"body\":{\n       \"mobileno\": \"8275455844\" ,\n       \"mobileotp\":\"822969\"\n       }\n}"
+		},
+		{
+			"id": "c9529254-0d42-80c5-dd6d-b372e661fcec",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/userprofile2/",
+			"folder": "55237ebe-87fd-c30f-f3f7-313cdfba351c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532324865920,
+			"name": "http://{{ip}}/api/userprofile2/",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"aadharno\" : \"437296271118\",\n    \"gender\":\"male\",\n    \"fullname\":\"Avinash Abhiman Thorat\",\n    \"address\":\"pune\",\n    \"dateofbirth\":\"2017-10-12\",\n    \"accno\":\"78945631\",\n    \"ifsccode\":\"BOI1234\",\n    \"bankname\":\"bank of india\",\n    \"event\":\"updateprofile\"\n        }   \n}"
+		},
+		{
+			"id": "cba7f495-2ab6-9990-3830-cba5e4fb7210",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/profile/",
+			"folder": "3853aaec-3b4d-4e46-adde-24744696c8ad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529928643815,
+			"name": "PROFILE",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"folder": "49b83189-0776-1786-117e-4245134707c4",
+			"id": "d027db48-9464-aeb2-6711-585baef4b50d",
+			"name": "http://{{ip}}/api/districtcoordinator/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"postId\": \"2\",\n    \"refCommentId\": \"\",\n    \"comment\": \"vdfvdfv\"\n\n    \n    }  \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/districtcoordinator/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "37700e3e-ea86-eb18-caf1-e1e4f8d6961d",
+			"id": "d5505932-5c8c-c401-4f29-e8bbbe915575",
+			"name": "display_post",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/displayjobvsrole/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "d66dd314-a31b-edd3-fe78-b1f94e67e1dc",
+			"id": "d64c68bc-4000-452e-95c3-d1635b9b73dd",
+			"name": "District_wise_Trainee",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/districtwisetrainee/2734",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "345beb19-9c54-8721-9cbc-247c87d4795b",
+			"id": "d85e2429-5ac9-5942-92c6-75817d14c3d0",
+			"name": "profilepic",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"module\":\"1\"\n    }\n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\nSource: WEB\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/usercurrentstatus/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "0e01da63-c4fa-e017-a43e-a40cc9d7b937",
+			"id": "d8a3ae60-f897-ccbe-7fe6-099e841107eb",
+			"name": "http://{{ip}}/api/comment/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"postId\": \"2\",\n    \"refCommentId\": \"1\",\n    \"comment\": \"yes yes i agreee\"\n\n    \n    }  \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/comment/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"id": "dbcb356a-c618-6743-8c50-f23805842825",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/signupemail/",
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1517308278402,
+			"name": "Signup_Email",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n    \"body\": {\n        \"mobile\": \"8000078001\",\n        \"email\" : \"avinashthorat68@yahoo.com\"\n    }\n}"
+		},
+		{
+			"id": "e2d0f627-78a6-0611-1080-b2df1317c119",
+			"headers": "//Authorization: ff1b8b9f78b867f661feaac30f4a8ab482adf5d1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "ff1b8b9f78b867f661feaac30f4a8ab482adf5d1",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/signup/",
+			"folder": "4a7b03d8-9309-7d33-1316-a89b15b97882",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532086841257,
+			"name": "Signup_change_mobile",
+			"description": "",
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5",
+			"responses": [],
+			"rawModeData": "{\n  \"user\":\n  {\n        \"mobile\": \"9657145627\",\n        \"full_name\":\"{{fullname}}\",\n        \"user_type\":\"master_trainer\" , \n        \"event\":\"changemobile\",\n        \"userid\":\"652\",\n        \"oldmobile\":\"{{mobile}}\"\n    \n  }\n}"
+		},
+		{
+			"folder": "e513c1a1-3afa-fe2f-dea0-eebef81b0e9c",
+			"id": "e9457f07-b95c-8653-0519-d1407a2fe80c",
+			"name": "http://{{ip}}/api/userprofile4/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"undergraduation\":\"BCA\",\n    \"ugspecial\" : \"CS\",\n    \"postgraduation\" : \"MCA\",\n        \"pgspecial\" : \"CS\",\n        \"professional\" : \"MEd\",\n        \"professionalspecil\":\"CS\",\n        \"other\" : \"MBA\",\n        \"event\":\"stpper\" \n     \n     }   \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/userprofile4/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "e513c1a1-3afa-fe2f-dea0-eebef81b0e9c",
+			"id": "ebfca2eb-90fe-3fc5-9241-4b755bb35510",
+			"name": "http://{{ip}}/api/userprofile2/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"aadharno\" : \"1234567892\",\n    \"gender\":\"male\",\n    \"address\":\"pune\",\n    \"dateofbirth\":\"2017-10-12\",\n    \"accno\":\"78945631\",\n        \"ifsccode\":\"BOI1234\",\n        \"bankname\":\"bank of india\",\n        \"event\":\"stepper\"\n        }   \n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/userprofile2/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		},
+		{
+			"folder": "e1eb069b-861f-186d-724c-ab5fa7b833fc",
+			"id": "f5ac0c2c-f84c-199e-c51e-4ac2e091d06a",
+			"name": "Login_with_Email",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"body\":{\n    \"username\": \"{{email}}\",\n    \"password\":\"Password123\"\n    }\n}",
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "Content-Type: application/json\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{ip}}/api/login/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "b792d7d4-cd5f-f553-5927-057c487eace5"
+		}
+	]
+}

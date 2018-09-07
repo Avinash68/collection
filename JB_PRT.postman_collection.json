@@ -1,0 +1,305 @@
+{
+	"id": "f69ca7f9-2881-b8b3-f5a4-5449b1d41b1b",
+	"name": "JB_PRT",
+	"description": "",
+	"order": [
+		"51dd4ab9-97de-0b62-daad-f9445c63b9ed",
+		"cea002d0-72ba-3bce-f58d-22663d766bf1",
+		"aa4a5f93-b39f-0b9f-266d-c0fbceee1b89",
+		"7ace8515-7513-0697-8d2c-72c02769c91b",
+		"095924bc-9675-a7a2-5044-d98588a5163c",
+		"da75fc00-ea8e-4887-e7c3-f9d1351cf878",
+		"b2da4ce0-a134-5cc5-9d9e-607e1d95970e",
+		"1eee94c3-270e-b187-5231-3dbef9a5a594"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1532929328443,
+	"owner": "2819447",
+	"public": false,
+	"requests": [
+		{
+			"id": "095924bc-9675-a7a2-5044-d98588a5163c",
+			"headers": "Content-Type: application/json\nAuthorization: 279b4ba1ca3ffa025e91959a045aeb8272fb02bd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "279b4ba1ca3ffa025e91959a045aeb8272fb02bd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/swjb/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532948663764,
+			"name": "View JoB",
+			"description": "",
+			"collectionId": "f69ca7f9-2881-b8b3-f5a4-5449b1d41b1b",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"req_skill_set\": \"python\",\n    \"jobtitle\":\"python Developer\"\n  }\n}"
+		},
+		{
+			"id": "1eee94c3-270e-b187-5231-3dbef9a5a594",
+			"headers": "Content-Type: application/json\nAuthorization: 279b4ba1ca3ffa025e91959a045aeb8272fb02bd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "279b4ba1ca3ffa025e91959a045aeb8272fb02bd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/rmjob/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532947328115,
+			"name": "Remove Job",
+			"description": "",
+			"collectionId": "f69ca7f9-2881-b8b3-f5a4-5449b1d41b1b",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"job_id\": \"1\"\n    }\n}"
+		},
+		{
+			"id": "51dd4ab9-97de-0b62-daad-f9445c63b9ed",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/ping/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f69ca7f9-2881-b8b3-f5a4-5449b1d41b1b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://{{ip}}/api/ping/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1532929363102,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"user\":{\n    \"mobile\": \"9657145627\",\n    \"full_name\":\"Ashwini Deshmukh\",\n    \"user_type\":\"trainee\",\n    \"event\":\"changemobile\",\n    \"userid\":\"640\",\n    \"oldmobile\":\"9096280351\"}\n}"
+		},
+		{
+			"id": "7ace8515-7513-0697-8d2c-72c02769c91b",
+			"headers": "Content-Type: application/json\nAuthorization: 4571ba879ffe02e0c72a3c9349c68ee2f3134f45\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "4571ba879ffe02e0c72a3c9349c68ee2f3134f45",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/addjb/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532948667313,
+			"name": "ADD JoB",
+			"description": "",
+			"collectionId": "f69ca7f9-2881-b8b3-f5a4-5449b1d41b1b",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"req_skill_set\": \"python\",\n    \"jobtitle\":\"python Developer\",\n    \"job_description\":\"sample descriprtion\",\n    \"req_exp\":\"3\",\n    \"company_name\":\"ABC\"\n  }\n}"
+		},
+		{
+			"id": "aa4a5f93-b39f-0b9f-266d-c0fbceee1b89",
+			"headers": "Content-Type: application/json\nAuthorization: 4b1c160800c35f65645baa11d6ced96e5b732152\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "4b1c160800c35f65645baa11d6ced96e5b732152",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/logout/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532948661672,
+			"name": "LOGOUT",
+			"description": "",
+			"collectionId": "f69ca7f9-2881-b8b3-f5a4-5449b1d41b1b",
+			"responses": [],
+			"rawModeData": "{\n  \"user\":{\n    \"mobile\": \"9657145627\",\n    \"full_name\":\"Ashwini Deshmukh\",\n    \"user_type\":\"trainee\",\n    \"event\":\"changemobile\",\n    \"userid\":\"640\",\n    \"oldmobile\":\"9096280351\"}\n}"
+		},
+		{
+			"id": "b2da4ce0-a134-5cc5-9d9e-607e1d95970e",
+			"headers": "Content-Type: application/json\nAuthorization: 279b4ba1ca3ffa025e91959a045aeb8272fb02bd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "279b4ba1ca3ffa025e91959a045aeb8272fb02bd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/viewapp/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532947277904,
+			"name": "ViewAPP",
+			"description": "",
+			"collectionId": "f69ca7f9-2881-b8b3-f5a4-5449b1d41b1b",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"req_skill_set\": \"python\",\n    \"jobtitle\":\"python Developer\"\n  }\n}"
+		},
+		{
+			"id": "cea002d0-72ba-3bce-f58d-22663d766bf1",
+			"headers": "Content-Type: application/json\nsource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/login/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532948665949,
+			"name": "LOGIN",
+			"description": "",
+			"collectionId": "f69ca7f9-2881-b8b3-f5a4-5449b1d41b1b",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"username\": \"js2\",\n    \"password\":\"Admin@123\"  \n  \t\n  }\n}"
+		},
+		{
+			"id": "da75fc00-ea8e-4887-e7c3-f9d1351cf878",
+			"headers": "Content-Type: application/json\nAuthorization: 4571ba879ffe02e0c72a3c9349c68ee2f3134f45\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "4571ba879ffe02e0c72a3c9349c68ee2f3134f45",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/aply/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532953453881,
+			"name": "Apply",
+			"description": "",
+			"collectionId": "f69ca7f9-2881-b8b3-f5a4-5449b1d41b1b",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"job_id\": \"1\"\n    \n  }\n}"
+		}
+	]
+}

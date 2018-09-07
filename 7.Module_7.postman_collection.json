@@ -1,0 +1,307 @@
+{
+	"id": "a8140586-5a5e-6c0d-a53f-ba8d8f1b6a1e",
+	"name": "7.Module_7",
+	"description": "",
+	"order": [
+		"6d9750e1-b81d-3304-3ffc-647005b3d888",
+		"8d778d94-8a4f-d506-6ca6-a9a6039b98ff",
+		"c81e2744-8a58-2ab6-f5ac-2e499dd487bb",
+		"97cb8012-ca69-d9ed-9211-c69ed9efc878",
+		"49986112-ad8b-2e63-0fcd-c123f16f0a82",
+		"566ac588-3c45-e513-2577-268200423371"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 0,
+	"owner": "2819447",
+	"public": false,
+	"requests": [
+		{
+			"id": "49986112-ad8b-2e63-0fcd-c123f16f0a82",
+			"headers": "Authorization: {{token}}\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{ip}}/api/fileupload/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "file",
+					"value": "python3_tutorial.pdf",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"time": 1521016707410,
+			"name": "Module7 Resend File",
+			"description": null,
+			"collectionId": "a8140586-5a5e-6c0d-a53f-ba8d8f1b6a1e",
+			"responses": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"variables": null
+		},
+		{
+			"id": "566ac588-3c45-e513-2577-268200423371",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\nSource: {{source}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Source",
+					"value": "{{source}}",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{ip}}/api/getfile/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "file",
+					"value": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "submoduleid",
+					"value": "9bfc2630c17144e59838153d7d70db66",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"time": 1521009681048,
+			"name": "View_selfile",
+			"description": null,
+			"collectionId": "a8140586-5a5e-6c0d-a53f-ba8d8f1b6a1e",
+			"responses": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"variables": null
+		},
+		{
+			"folder": null,
+			"id": "6d9750e1-b81d-3304-3ffc-647005b3d888",
+			"name": "usercurrentstatus",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n\"body\":{\n    \"module\":\"7\"\n       }\n}",
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Authorization: {{token}}\nContent-Type: application/json\nsource: {{source}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "{{ip}}/api/usercurrentstatus/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "source",
+					"value": "{{source}}",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "a8140586-5a5e-6c0d-a53f-ba8d8f1b6a1e"
+		},
+		{
+			"id": "8d778d94-8a4f-d506-6ca6-a9a6039b98ff",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\nSource: {{source}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "{{source}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/module7/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1528890547472,
+			"name": "module7 feedback",
+			"description": null,
+			"collectionId": "a8140586-5a5e-6c0d-a53f-ba8d8f1b6a1e",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"submoduleid\":\"3789e76489fc4e118f8dffad107fbbbd\",\n\t\t\"useranswer\":{\n\t\t\t\"1\": \"a\",\"1.1\":[], \"2\": \"['a','b' ]\", \"3\": \"a\",\n\t\t\t\"3.1\":\"[]\",\"4\": \"['a','c']\", \"5\": \"['b','c']\",\n\t\t\t\"6\": \"['a']\",\"7\": \"['b']\", \"8\": \"a\",\"8.1\":\"[]\",\n\t\t\t\"9\": \"a\", \"10\": \"b\", \"11\": \"['a','c','d']\",\n\t\t\t\"12\": \"a\", \"13\": \"b\", \"14\": \"a\",\"14.1\":\"[]\",\n\t\t\t\"15\": \"This is just comment that doesn't make any sence right now but at some point it will, then you will realize that the way you treat people thats thats  bullshit. FU\"}\n  }\n}"
+		},
+		{
+			"id": "97cb8012-ca69-d9ed-9211-c69ed9efc878",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\nSource: {{source}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "{{source}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/module7/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "file",
+					"value": "tp.pdf",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "submoduleid",
+					"value": "9bfc2630c17144e59838153d7d70db66",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534227611592,
+			"name": "module7 assignment",
+			"description": null,
+			"collectionId": "a8140586-5a5e-6c0d-a53f-ba8d8f1b6a1e",
+			"responses": []
+		},
+		{
+			"id": "c81e2744-8a58-2ab6-f5ac-2e499dd487bb",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\nSource: {{source}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "{{source}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/module7/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513862963691,
+			"name": "module7 feedback sub",
+			"description": null,
+			"collectionId": "a8140586-5a5e-6c0d-a53f-ba8d8f1b6a1e",
+			"responses": [],
+			"rawModeData": "{\n    \"body\":\n    {\n        \"submoduleid\":\"5c00d09df08d4187863680f0754511c3\",\n        \"useranswer\":{\"1\": \"a\",\"2\": \"b\", \"3\": \"a\",\"4\": \"a\", \"5\": \"b\", \"6\": \"a\",\"7\": \"b\", \"8\": \"a\",\"9\": \"a\", \"10\": \"b\", \"11\": \"a\", \"12\": \"a\", \"13\": \"b\",\"14\":\"a\",\"15\": \"a\",\"16\": \"b\",\"17\": \"b\"}\n    }\n}"
+		}
+	]
+}

@@ -1,0 +1,903 @@
+{
+	"id": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+	"name": "Institute_Reg",
+	"description": "",
+	"order": [
+		"9bb0e8a2-a622-51b3-a0ef-3ed59aba5f9d",
+		"a0b8188a-50ca-e66e-ef0a-45d99a2a3994",
+		"0913b700-7ebf-9ec4-828b-bfb7603a8537",
+		"42aa6863-e3b3-815e-98f0-369f401b4337",
+		"960506cc-0f26-3721-803d-2c27e9d32ce5",
+		"424d6786-70cc-18a5-558b-fdd1dda191e0",
+		"58175d03-7429-4ffd-86e4-5148d6aacf96",
+		"973e3c3c-87d3-c459-b6d5-fe663aa16e17",
+		"270960f9-c941-7941-f50a-cf9676cd6d40",
+		"0880cb8e-2e61-364f-836f-4d09f7c5dd32",
+		"b0779307-fe64-ac42-7180-94b1d548dfe8",
+		"46728399-d82b-5d5e-9816-213a8556ad2a",
+		"e01bc5c2-1e4a-c8ad-c86c-ce779a66157b",
+		"fd3ddc32-7e2d-a2f2-6ac4-e145a6887348",
+		"1e700ef0-8b3d-5a7a-4cbb-baef64d22b93",
+		"03ea4321-8d4c-8ac7-258b-c32bc3be1294",
+		"d0ff5492-5a14-82cb-2d2a-b8989e705213",
+		"bd3ebb43-78b8-ff9d-1734-fc938196b994",
+		"1b909507-400d-c50b-d9af-3174637670a6",
+		"034fca36-90a2-21e0-429a-56ed9b451c75",
+		"ae58a81f-776b-f6e6-fb40-19bc0f005d29",
+		"4a571413-50f6-2a45-d08f-277913041ba1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1530265859262,
+	"owner": "2819447",
+	"public": false,
+	"requests": [
+		{
+			"id": "034fca36-90a2-21e0-429a-56ed9b451c75",
+			"headers": "Content-Type: application/json\nSource: WEB\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/getcoursetrade/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531116425259,
+			"name": "Allinterest",
+			"description": "",
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"activity\":\"allinterest\"\n\t}\n}"
+		},
+		{
+			"id": "03ea4321-8d4c-8ac7-258b-c32bc3be1294",
+			"headers": "SOURCE: WEB\nContent-Type: application/json\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "SOURCE",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/logout/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531120984178,
+			"name": "LOGOUT",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"username\":\"9665861293\",\n\t\t\"password\":\"admin@123\"\n\t}\n\t\t\n}"
+		},
+		{
+			"id": "0880cb8e-2e61-364f-836f-4d09f7c5dd32",
+			"headers": "Authorization: {{token}}\nsource: WEB\n//Authorization: {{Admin_token}}\n//Authorization: {{Dte_token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "{{Dte_token}}",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{ip}}/api/getprofile/{{udise}}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531115789923,
+			"name": "PROFILE__INFO",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c"
+		},
+		{
+			"id": "0913b700-7ebf-9ec4-828b-bfb7603a8537",
+			"headers": "source: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/verifyotp/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530534510272,
+			"name": "VerifyOTP",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"udisecode\":\"{{udise}}\",\n\t\t\"mobileno\":\"{{mobile}}\",\n\t\t\"otp\":\"284619\"\n\t}\n}"
+		},
+		{
+			"id": "1b909507-400d-c50b-d9af-3174637670a6",
+			"headers": "source: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/resetpassword/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531128228089,
+			"name": "ReSetPassword",
+			"description": "",
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"udisecode\":\"{{udise}}\",\n\t\t\"password\":\"admin@1234\",\n\t\t\"uuid\":\"35a9cc38-5e8a-4491-bafc-9693fdb59f34\"\n\t}\n}\n"
+		},
+		{
+			"id": "1e700ef0-8b3d-5a7a-4cbb-baef64d22b93",
+			"headers": "source: WEB\nAuthorization: 9af7f4e1a2166ca8999634f93450fd84e53062cb\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "9af7f4e1a2166ca8999634f93450fd84e53062cb",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/changepassword/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531128002773,
+			"name": "ChangePassword",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"oldpassword\":\"Admin@123\",\n\t\t\"newpassword\":\"Admin@123\",\n\t\t\"confirmpassword\":\"Admin123\"\n\t}\n}\n\n"
+		},
+		{
+			"id": "270960f9-c941-7941-f50a-cf9676cd6d40",
+			"headers": "Content-Type: application/json\nSource: WEB\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/co_profile/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531120943810,
+			"name": "H_Course_Profile",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"type\":\"hsc\",\n\t\t\"interest\":\"Arts\",\n\t\t\"course\":\"Diploma\",\n\t\t\"trade\":\"Local Self Government Diploma Course – (LSGD DLP)\"\n\t}\n}"
+		},
+		{
+			"id": "424d6786-70cc-18a5-558b-fdd1dda191e0",
+			"headers": "Authorization: {{token}}\nsource: WEB\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/getinfo/{{udise}}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530600698126,
+			"name": "Institute_info",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c"
+		},
+		{
+			"id": "42aa6863-e3b3-815e-98f0-369f401b4337",
+			"headers": "source: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/setpassword/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530534506778,
+			"name": "SetPassword",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"udisecode\":\"{{udise}}\",\n\t\t\"password\":\"admin@123\",\n\t\t\"uuid\":\"544e7ee7-055f-4be6-9dd1-69903b56a295\"\n\t}\n}\n\n"
+		},
+		{
+			"id": "46728399-d82b-5d5e-9816-213a8556ad2a",
+			"headers": "source: WEB\nAuthorization: {{Dte_token}}\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{Dte_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/approval/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530683338112,
+			"name": "Approval",
+			"description": "",
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"udise\":\"{{udise}}\",\n\t\t\"type\":\"hsc\",\n\t\t\"approve\":true,\n\t\t\"comment\":\"sasdadas\"\n\t}\n}"
+		},
+		{
+			"id": "4a571413-50f6-2a45-d08f-277913041ba1",
+			"headers": "Content-Type: application/json\nSource: WEB\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/getcoursetrade/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531117490655,
+			"name": "courseWtrade",
+			"description": "",
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"responses": [],
+			"rawModeData": "{\n    \"body\":\n      {\n          \"activity\":\"hcoursewtrade\",\n          \"courseid\":163\n          }\n}"
+		},
+		{
+			"id": "58175d03-7429-4ffd-86e4-5148d6aacf96",
+			"headers": "Content-Type: application/json\nSource: WEB\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/profile/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530683303838,
+			"name": "Profile",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"type\":\"both\",\n        \"name\":\"institute of fake degree\",\n\t\t\"district\":\"District_A\",\n\t\t\"taluka\":\"taluka_A\",\n\t\t\"address\":\"This is a fake address\",\n\t\t\"collegetype\":\"private\",\n\t\t\"gender\":\"m\",\n\t\t\"phone\":\"787888\",\n\t\t\"order\":55,\n\t\t\"website\":\"both\",\n\t\t\"affiliation\":\"with Fake university\",\n\t\t\"pincode\":\"ABCSDFED\",\n\t\t\"intake\":120,\n\t\t\"mobile\":{{mobile}},\n\t\t\"email\":\"avinashthorat68@gmail.com\"\n\t}\n}"
+		},
+		{
+			"id": "960506cc-0f26-3721-803d-2c27e9d32ce5",
+			"headers": "SOURCE: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "SOURCE",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/login/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530534505189,
+			"name": "Login",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"username\":\"{{udise}}\",\n\t\t\"password\":\"admin@123\"\n\t}\n}"
+		},
+		{
+			"id": "973e3c3c-87d3-c459-b6d5-fe663aa16e17",
+			"headers": "Content-Type: application/json\nSource: WEB\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/co_profile/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531140952830,
+			"name": "Course_Profile",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"type\":\"ssc\",\n\t\t\"interest\":\"Arts\",\n\t\t\"course\":\"HSS Art Group-1\",\n\t\t\"trade\":\"Arts(History,Sociology,Pol.Science,Economics,Geogaphy)\"\n\t}\n}"
+		},
+		{
+			"id": "9bb0e8a2-a622-51b3-a0ef-3ed59aba5f9d",
+			"headers": "source: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/ping/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Ping",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1519375781608,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"udisecode\":\"08210702701\",\n\t\t\"mobileno\":9657145627,\n\t\t\"otp\":669006\n\t}\n}"
+		},
+		{
+			"id": "a0b8188a-50ca-e66e-ef0a-45d99a2a3994",
+			"headers": "source: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/register/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530534513226,
+			"name": "Sign_Up",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"udisecode\":\"{{udise}}\",\n\t\t\"mobileno\":\"{{mobile}}\",\n\t\t\"personname\":\"Avinash Thorat\",\n\t\t\"institutename\":\"AAAAAAAAAAAAA AAAAAAa\",\n\t\t\"email\":\"email@email.email\"\n\t}\n}"
+		},
+		{
+			"id": "ae58a81f-776b-f6e6-fb40-19bc0f005d29",
+			"headers": "Content-Type: application/json\nSource: WEB\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/getcoursetrade/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531117282551,
+			"name": "InterestWCourse",
+			"description": "",
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"activity\":\"hinterestwcourse\",\n        \"interestid\":2\n     }\n}"
+		},
+		{
+			"id": "b0779307-fe64-ac42-7180-94b1d548dfe8",
+			"headers": "Authorization: {{Admin_token}}\nsource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/talwins/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530682060368,
+			"name": "Taluka_Wise_Ins",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"district\":\"district_A\",\n\t\t\"taluka\":\"taluka_A\"\n\t}\n}"
+		},
+		{
+			"id": "bd3ebb43-78b8-ff9d-1734-fc938196b994",
+			"headers": "source: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/reverifyotp/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1519375668148,
+			"name": "ReVerifyOTP ",
+			"description": "",
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"responses": [],
+			"collection_id": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"udisecode\":\"08210702701\",\n\t\t\"mobileno\":\"7709168614\",\n\t\t\"otp\":\"561757\"\n\t}\n}"
+		},
+		{
+			"id": "d0ff5492-5a14-82cb-2d2a-b8989e705213",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\nSource: WEB\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{ip}}/api/forgetpassword/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"time": 1531127266396,
+			"name": "Forget Password",
+			"description": null,
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"responses": [],
+			"auth": null,
+			"events": null,
+			"descriptionFormat": null,
+			"variables": null,
+			"rawModeData": "{\n  \"body\":{\n    \"username\":\"{{udise}}\",\n        \"mobileno\":7709168614\n        }\n} "
+		},
+		{
+			"id": "e01bc5c2-1e4a-c8ad-c86c-ce779a66157b",
+			"headers": "source: WEB\nAuthorization: {{Dte_token}}\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{Dte_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/co_approval/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531140951257,
+			"name": "Course__Approval",
+			"description": "",
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"udise\":\"{{udise}}\",\n\t\t\"type\":\"ssc\",\n\t\t\"approve\":false,\n\t\t\"comment\":\"sasdadas\",\n\t\t\"interest\":\"Arts\",\n\t\t\"course\":\"HSS Art Group-1\",\n\t\t\"trade\":\"Arts(History,Sociology,Pol.Science,Economics,Geography)\"\n\t}\n}"
+		},
+		{
+			"id": "fd3ddc32-7e2d-a2f2-6ac4-e145a6887348",
+			"headers": "source: WEB\nAuthorization: {{Dte_token}}\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{Dte_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/co_approval/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531118524446,
+			"name": "H_Course__Approval",
+			"description": "",
+			"collectionId": "60e16734-9696-a20e-5545-afe5dbcb1f5c",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"udise\":\"{{udise}}\",\n\t\t\"type\":\"hsc\",\n\t\t\"approve\":false,\n\t\t\"comment\":\"sasdadas\",\n\t\t\"interest\":\"Arts\",\n\t\t\"course\":\"Diploma\",\n\t\t\"trade\":\"Local Self Government Diploma Course – (LSGD DLP)\"\n\t}\n}"
+		}
+	]
+}

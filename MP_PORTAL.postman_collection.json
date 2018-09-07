@@ -1,0 +1,1083 @@
+{
+	"id": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+	"name": "MP_PORTAL",
+	"description": "",
+	"order": [
+		"177ae613-8f10-fe04-7e5c-78b94cd44c62",
+		"df9d8832-9f84-ac6e-7683-2c0c45263bce",
+		"c2536ae4-bb45-ce42-35d1-a8746c4a5f01",
+		"a5e31174-c072-9c02-cd29-1672dea83c32",
+		"88590297-5ca6-6016-f003-0a4dd5718444",
+		"85a1f3d9-dab7-c120-cfa4-e864ea26fb7c",
+		"89cde3b1-d2f2-dae9-5cdd-18aecf4b7e07",
+		"c28c89fd-426d-d53a-a126-32422255a0f2",
+		"956448a7-b877-0316-d1eb-9773fdcbadc1",
+		"9d20790c-12f5-f72e-ab7a-18a5b4458aaf",
+		"053500a3-7122-662b-3116-f4de97707cbe",
+		"b1e63196-ba6a-219a-b532-4a8f59e20279",
+		"97854b7a-3dbe-99d7-f697-c6db1c197fa0",
+		"fcc0c694-82fe-c704-73ac-161be5bf7757",
+		"1fe7b565-cfc5-d6ce-9afc-a06b644dbea6",
+		"fd6dda47-69bc-4d1a-fc9f-d908a73326d9",
+		"ce88a412-442f-b4fc-29eb-1adec3650a6d",
+		"2fa4a7db-33c0-42c3-2e35-a4268fd57524",
+		"14400d65-9ab8-09e9-cd98-2bca0e2ee705",
+		"7f8963eb-a400-3227-6daf-133d927ab2f9",
+		"dc4c64ac-bae4-739f-4f28-7013f99ada51",
+		"31e49f87-8f19-183c-da13-7818ca1dad02",
+		"bc1c5481-150b-7406-9fe2-3042ddafa4c3",
+		"e2224d41-cb8e-5e58-5b2b-8e2ebfb34271",
+		"f990c88f-a89e-a291-9896-e1713c12656a",
+		"a932d4ab-2357-4e92-14ef-9ddc5bc34c3b",
+		"8d7b9b48-d4ff-299e-7b91-9c62ca2b6aa0",
+		"68e29d9c-d566-9332-7f94-ca8b9e4e2cfe",
+		"fc6b3acf-f298-9172-e175-2285c6a9d6a5"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1522156567368,
+	"owner": "2819447",
+	"public": false,
+	"requests": [
+		{
+			"id": "053500a3-7122-662b-3116-f4de97707cbe",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522324696124,
+			"name": "tradeDistrict_wise_Institute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"tDistrictWiseInstitute\",\n\t\t\"districtname\":\"BHOPAL\",\n        \"tradeid\":\"1\"\n\t}\n}"
+		},
+		{
+			"id": "14400d65-9ab8-09e9-cd98-2bca0e2ee705",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522386083012,
+			"name": "H___Institute_W_details",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"hInstituteWDetails\",\n\t\t\"instituteid\":\"1124\"\n\t\t}\n}"
+		},
+		{
+			"id": "177ae613-8f10-fe04-7e5c-78b94cd44c62",
+			"headers": "",
+			"headerData": [],
+			"url": "{{ip}}/api/ping",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1521709214865,
+			"name": "Ping",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"collection_id": "113b267b-df45-a68b-2bcf-a50e9393f5d8"
+		},
+		{
+			"id": "1fe7b565-cfc5-d6ce-9afc-a06b644dbea6",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522646155095,
+			"name": "H___Interest_W_Course",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"activity\":\"hInterestWCourse\",\n        \"interestid\":4\n     }\n}"
+		},
+		{
+			"id": "2fa4a7db-33c0-42c3-2e35-a4268fd57524",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522386077635,
+			"name": "H___District_W_Institute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"hDistrictWInstitute\",\n        \"districtname\":\"BHOPAL\"\n    }\n}"
+		},
+		{
+			"id": "31e49f87-8f19-183c-da13-7818ca1dad02",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522227271792,
+			"name": "H_Search_Intitute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"hSearchIntitute\",\n\t\t\"institutesearch\":\"as\"\n\t\t}\n}"
+		},
+		{
+			"id": "68e29d9c-d566-9332-7f94-ca8b9e4e2cfe",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529585582978,
+			"name": "SSC_STUD_INFO",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n    \"body\":\n      {\n          \"activity\":\"sscStudInfo\",\n          \"samagra_id\":\"129529188\"\n     }\n}\t"
+		},
+		{
+			"id": "7f8963eb-a400-3227-6daf-133d927ab2f9",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522227224365,
+			"name": "H___trade_Wise_District_Institute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"hTradeWiseInstitute\",\n        \"tradeid\":\"22\"\n\t}\n}"
+		},
+		{
+			"id": "85a1f3d9-dab7-c120-cfa4-e864ea26fb7c",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522648443419,
+			"name": "courseWtrade",
+			"description": null,
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"rawModeData": "{\n    \"body\":\n      {\n          \"activity\":\"courseWtrade\",\n          \"courseid\":1\n          }\n}"
+		},
+		{
+			"id": "88590297-5ca6-6016-f003-0a4dd5718444",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522668195451,
+			"name": "InterestWCourse",
+			"description": null,
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"activity\":\"interestWCourse\",\n        \"interestid\":1\n     }\n}"
+		},
+		{
+			"id": "89cde3b1-d2f2-dae9-5cdd-18aecf4b7e07",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522225575245,
+			"name": "District_W_Institute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"districtWinstitute\",\n        \"districtname\":\"BARWANI\"\n    }\n}"
+		},
+		{
+			"id": "8d7b9b48-d4ff-299e-7b91-9c62ca2b6aa0",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529565341502,
+			"name": "HSC_feedback",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n        \"activity\": \"feedback\",\n        \"rollno\":\"281100609\",\n        \"mcq\": \n        {\n        \t\"1\": \"A\",\n\t\t    \"2\": \"A\",\n\t\t    \"3\": \"A\",\n\t\t    \"4\": \"A\",\n\t\t    \"5\": \"A\",\n\t\t    \"6\": \"A\"\n        }\n\t}\n}"
+		},
+		{
+			"id": "956448a7-b877-0316-d1eb-9773fdcbadc1",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529565290174,
+			"name": "Course_and_District_wise_institute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"cDWiseinstitute\",\n        \"courseid\":11,\n        \"districtname\":\"BARWANI\"\n    }\n}"
+		},
+		{
+			"id": "97854b7a-3dbe-99d7-f697-c6db1c197fa0",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1535457706703,
+			"name": "Institute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"institute\",\n\t\t\"instituteid\":4023\n\t\t}\n}"
+		},
+		{
+			"id": "9d20790c-12f5-f72e-ab7a-18a5b4458aaf",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529565297505,
+			"name": "trade_wise_District_Institute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"tWiseInstitute\",\n        \"tradeid\":99\n\t}\n}"
+		},
+		{
+			"id": "a5e31174-c072-9c02-cd29-1672dea83c32",
+			"headers": "Content-Type: application/json\nSource: WEB\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1535455056385,
+			"name": "Allinterest",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"allinterest\"\n\t}\n}"
+		},
+		{
+			"id": "a932d4ab-2357-4e92-14ef-9ddc5bc34c3b",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529574219076,
+			"name": "HSC_STUD_INFO",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n    \"body\":\n      {\n          \"activity\":\"hscStudInfo\",\n          \"rollno\":\"281100609\",\n          \"marks\":\"401\"\n     }\n}\t"
+		},
+		{
+			"id": "b1e63196-ba6a-219a-b532-4a8f59e20279",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522648560223,
+			"name": "Result",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n        \"activity\": \"result\",\n        \"seatnumber\":186871443\n}\n}"
+		},
+		{
+			"id": "bc1c5481-150b-7406-9fe2-3042ddafa4c3",
+			"headers": "Content-Type: application/json\nSource: APP\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529565307864,
+			"name": "UDISE_Result",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\"body\":{\n        \"activity\": \"diesWiseResult\",\n        \"udiescode\":\"23320301807\"\n}\n}"
+		},
+		{
+			"id": "c2536ae4-bb45-ce42-35d1-a8746c4a5f01",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522648860208,
+			"name": "Login",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":\n\t{\n\t\t\"activity\":\"login\",\n        \"username\":\"23320301807\",\n        \"password\":\"rMUL6vO\",\n        \"devicenumber\":\"25ss456ssss31ss3211\"\n    }\n}"
+		},
+		{
+			"id": "c28c89fd-426d-d53a-a126-32422255a0f2",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529562779677,
+			"name": "Course_wise_institute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"cWinstitute\",\n        \"courseid\":11\n    }\n}"
+		},
+		{
+			"id": "ce88a412-442f-b4fc-29eb-1adec3650a6d",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522386073600,
+			"name": "H___Course_wise_institute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"hCourseWInstitute\",\n        \"courseid\":\"21\"\n    }\n}"
+		},
+		{
+			"id": "dc4c64ac-bae4-739f-4f28-7013f99ada51",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522385961130,
+			"name": "H___Course_and_District_wise_institute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"hCourseDistrictWInstitute\",\n        \"courseid\":\"33\",\n        \"districtname\":\"BHOPAL\"\n    }\n}"
+		},
+		{
+			"id": "df9d8832-9f84-ac6e-7683-2c0c45263bce",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1535454995254,
+			"name": "Alldistrict",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"alldistrict\"\n    }\n}"
+		},
+		{
+			"id": "e2224d41-cb8e-5e58-5b2b-8e2ebfb34271",
+			"headers": "Content-Type: application/json\nSource: WEB\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1535457708816,
+			"name": "UDISE_Apti_Result",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\": \"diesWiseAptiResult\",\n        \"udiescode\":\"23320104005\"\n\t\t}\n}"
+		},
+		{
+			"id": "f990c88f-a89e-a291-9896-e1713c12656a",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529574212999,
+			"name": "COUnsling",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n    \"body\":\n      {\n          \"activity\":\"showData\",\n          \"rollno\":\"281100609\",\n          \"marks\":\"401\"\n     }\n}"
+		},
+		{
+			"id": "fc6b3acf-f298-9172-e175-2285c6a9d6a5",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529585588159,
+			"name": "SSC_feedback",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n        \"activity\": \"sscfeedback\",\n        \"samagra_id\":\"129529188\",\n        \"mcq\": {\n        \t\"1\": \"A\",\n        \t\"2\": \"A\",\n        \t\"3\": \"A\",\n        \t\"4\": \"A\",\n        \t\"5\": \"A\",\n        \t\"6\": \"A\",\n        \t\"7\": \"A\",\n        \t\"8\": \"A\"\n     \t\n        }\n    }\n}"
+		},
+		{
+			"id": "fcc0c694-82fe-c704-73ac-161be5bf7757",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529565330112,
+			"name": "Search_Intitute",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"searchIntitute\",\n\t\t\"institutesearch\":\"avin\"\n\t\t}\n}"
+		},
+		{
+			"id": "fd6dda47-69bc-4d1a-fc9f-d908a73326d9",
+			"headers": "Content-Type: application/json\nSource: APP\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "APP",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/mpcareermitra/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1522386075583,
+			"name": "H___Course_Wise_Trades",
+			"description": "",
+			"collectionId": "113b267b-df45-a68b-2bcf-a50e9393f5d8",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"activity\":\"hCourseWiseTrades\",\n\t\t\"courseid\":\"21\"\n\t\t}\n}"
+		}
+	]
+}

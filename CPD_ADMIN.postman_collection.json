@@ -1,0 +1,749 @@
+{
+	"id": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+	"name": "CPD_ADMIN",
+	"description": "",
+	"order": [
+		"5058c80b-9e7b-0b16-60b1-6266df7ecb7b",
+		"56ac88bf-16d9-982e-b2a7-b6ad2a15469a",
+		"5852c572-7cd0-51d3-4a4a-18d9014f8545",
+		"e557e817-886c-7211-6066-7ef98aee82cd",
+		"566596a9-fb2c-bfb5-8b57-548ace1e86b8",
+		"b2d0c836-3d80-8362-1ae5-637601f11f87",
+		"d8352ecd-a043-d606-5539-8e4a8b7b8f9a",
+		"be759458-c4a7-aebe-32ad-1d9386a9f845",
+		"b9cf09fc-8438-cf22-3543-6ec0db80901c",
+		"7779bbce-b0de-1cf7-e89d-f66d17dc6c67",
+		"57edcb62-77f4-7a45-f1ce-d735f618723d",
+		"b0d4400d-582e-8b05-03fd-8316101ad245",
+		"af3fc3d4-ad57-834b-c193-fabecf55f2ca",
+		"feab985f-1e76-ba1b-e777-d594ed8ad6a9",
+		"d4a3c038-6031-3ebe-b709-e12f7dfb0dce"
+	],
+	"folders": [
+		{
+			"owner": "2819447",
+			"lastUpdatedBy": "2819447",
+			"lastRevision": 2755395394,
+			"folder": null,
+			"id": "5ec76ca8-d9c9-3600-912a-b86bc78bfe0c",
+			"name": "Admin_login",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"846eb2a3-5aeb-3ff7-d4d4-7c6a5a8bcfad",
+				"4c594a26-4ec2-10c8-079b-cfe2356ac771"
+			],
+			"folders_order": [],
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3"
+		}
+	],
+	"folders_order": [
+		"5ec76ca8-d9c9-3600-912a-b86bc78bfe0c"
+	],
+	"timestamp": 1529055023659,
+	"owner": "2819447",
+	"public": false,
+	"requests": [
+		{
+			"id": "4c594a26-4ec2-10c8-079b-cfe2356ac771",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/login/",
+			"folder": "5ec76ca8-d9c9-3600-912a-b86bc78bfe0c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1529998867515,
+			"name": "Admin_Login_with_Email",
+			"description": "",
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"username\": \"{{email}}\",\n    \"password\":\"Password123\"\n    }\n}"
+		},
+		{
+			"id": "5058c80b-9e7b-0b16-60b1-6266df7ecb7b",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/blockuser/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534157992060,
+			"name": "Blockuser",
+			"description": "",
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n    \"mobile\": \"9423027942\",\n    \"remark\":\"remark by admin\"\n    }\n}"
+		},
+		{
+			"id": "566596a9-fb2c-bfb5-8b57-548ace1e86b8",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/report/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531467297921,
+			"name": "Report__notstarteduser",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"activity\": \"notstarteduser\"\n    }\n}"
+		},
+		{
+			"id": "56ac88bf-16d9-982e-b2a7-b6ad2a15469a",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/adirep_nts/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531301302164,
+			"name": "Admin_District_wise_Not_started",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"district\": \"all\"\n    }\n}"
+		},
+		{
+			"id": "57edcb62-77f4-7a45-f1ce-d735f618723d",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/talukaendlinereport/2501",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531462774578,
+			"name": "Taluka_Endline_Report",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"district\": \"Pune\",\n    \"taluka\":\"all\"\n    }\n}"
+		},
+		{
+			"id": "5852c572-7cd0-51d3-4a4a-18d9014f8545",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/atarep_nts/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530089466666,
+			"name": "Admin_Taluka_ wise Not started copy",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"district\": \"Pune\",\n    \"taluka\":\"all\"\n    }\n}"
+		},
+		{
+			"id": "7779bbce-b0de-1cf7-e89d-f66d17dc6c67",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/talukabaslinereport/2501",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531462736883,
+			"name": "Taluka_basline_Report",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"district\": \"Pune\",\n    \"taluka\":\"all\"\n    }\n}"
+		},
+		{
+			"id": "846eb2a3-5aeb-3ff7-d4d4-7c6a5a8bcfad",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/login/",
+			"folder": "5ec76ca8-d9c9-3600-912a-b86bc78bfe0c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1530168695963,
+			"name": "Admin_Login_with_Mobile",
+			"description": "",
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"username\": \"9503144199\",\n    \"password\":\"Admin@123\"\n    }\n}"
+		},
+		{
+			"id": "af3fc3d4-ad57-834b-c193-fabecf55f2ca",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/createnewuser/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534235129017,
+			"name": "Replace _create_new",
+			"description": "",
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"schoolindex\": \"27260104702\",\n        \"position\":\"teacher\",\n        \"mobile\": \"9657145627\",\n        \"district\": \"2726\",\n        \"taluka\": \"2610\",\n        \"aadharno\":\"1234567899121\",\n        \"fullname\":\"Avinash Abhiman Thorat\",\n        \"gender\":\"male\",\n        \"remark\":\"\"\n\t}\n}"
+		},
+		{
+			"id": "b0d4400d-582e-8b05-03fd-8316101ad245",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/talukawm5mcq/2501",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531467264273,
+			"name": "talukawm5mcq",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"rawModeData": "{\n  \"body\":{\n    \"district\": \"Pune\",\n    \"taluka\":\"all\"\n    }\n}"
+		},
+		{
+			"id": "b2d0c836-3d80-8362-1ae5-637601f11f87",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/batchdetails/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531473718981,
+			"name": "BatchDetails",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "b9cf09fc-8438-cf22-3543-6ec0db80901c",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/report/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531467471582,
+			"name": "Report__dwparticipant",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"activity\": \"dwparticipant\",\n    \"district\":\"pune\",\n    \"module\":\"1\"\n    }\n}"
+		},
+		{
+			"id": "be759458-c4a7-aebe-32ad-1d9386a9f845",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/batchdatechange/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"time": 1531472682356,
+			"name": "batchdatechangev",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"auth": null,
+			"events": null,
+			"descriptionFormat": null,
+			"variables": null,
+			"rawModeData": "{\n  \"body\":{\n    \"district\": \"Pune\",\n    \"event\":\"startdate\",\n    \"startdate\":\"15/10/2018\",\n    \"endlinedate\":\"15/10/2018\",\n    \"enddate\":\"15/10/2018\"\n    }\n}"
+		},
+		{
+			"id": "d4a3c038-6031-3ebe-b709-e12f7dfb0dce",
+			"headers": "Content-Type: application/json\nAuthorization: {{Admin_token}}\nSourc: WEB\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Sourc",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/change_mb/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534485079365,
+			"name": "Chnage_mobile",
+			"description": "",
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"old_mobile\":\"9423027942\",\n\t\t\"new_mobile\":\"9657145627\",\n        \"remark\":\"remark text goes here.\"\n     }   \n}"
+		},
+		{
+			"id": "d8352ecd-a043-d606-5539-8e4a8b7b8f9a",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/report/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531467377911,
+			"name": "Report__allparticipant",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"activity\": \"allparticipant\"\n    }\n}"
+		},
+		{
+			"id": "e557e817-886c-7211-6066-7ef98aee82cd",
+			"headers": "Authorization: {{Admin_token}}\nSource: WEB\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{ip}}/api/report/",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1531467262162,
+			"name": "Report__notstartedcount",
+			"description": null,
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n  \"body\":{\n    \"activity\": \"notstartedcount\"\n    }\n}"
+		},
+		{
+			"id": "feab985f-1e76-ba1b-e777-d594ed8ad6a9",
+			"headers": "Content-Type: application/json\nAuthorization: {{Admin_token}}\nSource: WEB\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{Admin_token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Source",
+					"value": "WEB",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ip}}/api/upprofile/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534249664839,
+			"name": "Up_Profile",
+			"description": "",
+			"collectionId": "b391a5d5-2207-1698-fd6b-25edb66c2dc3",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\":{\n\t\t\"fullname\":\"Avinash Abhiman Thorat\",\n\t\t\"mobile\":\"9423027942\",\n\t\t\"position\":\"teacher\",\n\t\t\"district\": \"2725\",\n\t\t\"taluka\" : \"2505\",\n\t\t\"schoolname\" : \"yashwant vidhyalaya latur\",\n\t\t\"schoolindex\": \"27250508891\",\n\t\t\"aadharno\" : \"1234567899121\",\n\t\t\"gender\":\"male\",\n\t\t\"address\":\"pune\",\n\t\t\"dateofbirth\":\"2017-10-12\",\n\t\t\"accno\":\"78945644431\",\n\t\t\"ifsccode\":\"BOI1234\",\n        \"bankname\":\"bank of india\",\n        \"subject\":\"subject1\",\n        \"grade\":\"9,10\",\n        \"dateofjoining\":\"2014\",\n        \"undergraduation\":\"BCA\",\n        \"ugspecial\" : \"CS\",\n        \"postgraduation\" : \"MCA\",\n        \"pgspecial\" : \"CS\",\n        \"professional\" : \"MEd\",\n        \"professionalspecil\":\"CS\",\n        \"other\" : \"MBA\",\n        \"remark\":\"asdasdasdasdasasasdasdasdasdasdasd\"\n     }   \n}"
+		}
+	]
+}
